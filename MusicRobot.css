@@ -1,0 +1,81 @@
+body
+{
+	background-color:#f7b2bf;
+}
+.container
+{
+  margin-left:38%;
+  margin-top:10%;
+}
+#canvas6
+{
+  margin-left:66px;
+}
+#canvas0
+{
+  margin-left:129px;
+}
+#canvas15
+{
+  position:absolute;
+  margin-left:66px;
+}
+#canvas14
+{
+  margin-left:66px;
+}
+
+canvas:active, canvas:focus
+{
+ box-shadow: 0 0 5px #333;
+}
+	
+canvas{
+
+	position:relative;
+	-webkit-animation:canvasAnimation 5s; 
+  }
+  
+  @-webkit-keyframes canvasAnimation 
+  {
+  	 from {
+    margin-top: 100%;
+    
+  }
+
+  to {
+    margin-top: 0%;
+    
+  }
+}
+
+/*#canvas1:active
+{
+	position:relative;
+	-webkit-animation:can1 20s; 
+}
+
+
+ @-webkit-keyframes can1
+ {
+ 	0%  { 
+ 		      from { margin-top: 100%; width:50%; }
+
+              to { margin-top: 0%; width:80%; }
+       }
+       
+	25%   {from { margin-left: 100%; width:50%; }
+
+              to { margin-left: 0%; width:80%; }}
+	50%  {from { margin-top: 100%; width:50%; }
+
+              to { margin-top: 0%; width:80%; }}
+	75%  {from { margin-bottom: 100%; width:50%; }
+
+              to { margin-bottom: 0%; width:80%; }}
+	100%  { from { margin-right: 100%; width:50%; }
+
+              to { margin-right: 0%; width:80%; }}
+ } */
+
+
